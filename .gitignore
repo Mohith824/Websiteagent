@@ -1,0 +1,25 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment variables and secrets (NEVER COMMIT SENSITIVE KEYS)
+.env
+*.env.local
+
+# SQLite Database files
+*.db
+*.sqlite3
+data/*.db
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
